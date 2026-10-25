@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <header class="site-header">
+      <h1>Curso de JavaScript: Interacciones con Elementos HTML</h1>
+  </header>
+
+  <nav class="site-nav">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><button onclick="document.getElementById('contenido').innerHTML = 'Asi podemos modificar el contenido HTML!'">Modificar contenido HTML</button></li>
+          <li><button onclick="document.getElementById('contenido').style.color = 'red'">Modificar estilos CSS</button></li>
+          <li><button onclick="document.getElementById('contenido').toggleAttribute('hidden')">Modificar atributos HTML</button></li>
+      </ul>
+  </nav>
+
+  <main class="site-main">
+    <section id="home">
+        <h2>Bienvenidos al curso de JavaScript</h2>
+        <p id="contenido">En este espacio aprenderemos a utilizar JavaScript aplicado de forma práctica para interactuar con elementos HTML, permitiendo modificar contenidos, estilos y atributos en tiempo real de manera dinámica.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+      <p>Footer del sitio</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
