@@ -27,26 +27,21 @@ A continuación se detalla el flujo de trabajo llevado a cabo por los 3 programa
 ### Fase 1: Estructura Inicial (Usuario 1)
 El **Usuario 1** (miembro más experimentado) creó el repositorio, inicializó Git Flow y desplegó la estructura base[cite: 2].
 * **Acciones:** Configuración del repositorio remoto, creación de las ramas iniciales (`main` y `develop`) y adaptación del boilerplate[cite: 2]. La página incluye la cabecera con el nombre del curso e imagen de fondo, barra de navegación con acceso a Home, descripción central y footer[cite: 1, 2].
-* **Captura del proceso:**
-  ![Estructura Inicial](capturas/usuario1-init.png)
+
 
 ### Fase 2: Desarrollo de Contenidos y Atributos (Usuario 2)
 El **Usuario 2** desarrolló las secciones dinámicas correspondientes creando dos ramas de tipo *feature*[cite: 2].
 * **Acciones:** Creación de `feature/contingutHTML` para añadir ejemplos explicados de modificación de contenido, y `feature/atributsHTML` para la sección de atributos[cite: 1, 2]. Ambas se integraron en `develop`.
-* **Captura del proceso:**
-  ![Features Usuario 2](capturas/usuario2-features.png)
+
 
 ### Fase 3: Estilos CSS y Versión Release (Usuario 3)
 El **Usuario 3** (integrante nuevo) implementó los estilos visuales de la aplicación[cite: 2].
 * **Acciones:** Creación de la rama `feature/estilsCSS` para añadir los estilos y ejemplos comentados[cite: 1, 2]. Posteriormente, creó la rama de lanzamiento (*release*) agrupando todas las características y etiquetándola como **`v1.0`**[cite: 2].
-* **Captura del proceso:**
-  ![Release v1.0 Usuario 3](capturas/usuario3-release.png)
+
 
 ### Fase 4: Pruebas y Mejora mediante Hotfix (Usuario 1)
 El **Usuario 1**, encargado de las pruebas del sistema, aplicó una mejora sobre el contenido desarrollado[cite: 2].
 * **Acciones:** Creación de la rama de tipo *hotfix* denominada `hotfix/milloresV_1_0` para refinar la sección de contenido HTML[cite: 2]. Tras aplicar los cambios, el hotfix se fusionó con `main` y `develop`.
-* **Captura del proceso:**
-  ![Hotfix Usuario 1](capturas/usuario1-hotfix.png)
 
 ---
 
